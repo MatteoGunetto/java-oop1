@@ -7,27 +7,34 @@ public class Main {
         Prodotto prodotto3 = new Prodotto("mouse", "mouse gaming", 20.0, 15);
 
         System.out.println("Prodotto 1:");
-        System.out.println("Codice: " + prodotto1.getCodice());
+//        System.out.println("Codice: " + prodotto1.getCodice());
         System.out.println("Nome: " + prodotto1.getNome());
-        System.out.println("Descrizione: " + prodotto1.getDescrizione());
+//        System.out.println("Descrizione: " + prodotto1.getDescrizione());
         System.out.println("Prezzo: " + prodotto1.getPrezzo());
-        System.out.println("IVA: " + prodotto1.getIva());
+//        System.out.println("IVA: " + prodotto1.getIva());
         System.out.println("Prezzo con iva: "+prodotto1.getPrezzoConIva());
+        System.out.println("Nome esteso: "+prodotto1.getNomeEsteso());
 
         System.out.println("Prodotto 2:");
-        System.out.println("Codice: " + prodotto2.getCodice());
+//        System.out.println("Codice: " + prodotto2.getCodice());
         System.out.println("Nome: " + prodotto2.getNome());
-        System.out.println("Descrizione: " + prodotto2.getDescrizione());
+//        System.out.println("Descrizione: " + prodotto2.getDescrizione());
         System.out.println("Prezzo: " + prodotto2.getPrezzo());
-        System.out.println("IVA: " + prodotto2.getIva());
+//        System.out.println("IVA: " + prodotto2.getIva());
         System.out.println("Prezzo con iva: "+prodotto2.getPrezzoConIva());
+        System.out.println("Nome esteso: "+prodotto2.getNomeEsteso());
 
         System.out.println("Prodotto 3:");
-        System.out.println("Codice: " + prodotto3.getCodice());
+//        System.out.println("Codice: " + prodotto3.getCodice());
         System.out.println("Nome: " + prodotto3.getNome());
-        System.out.println("Descrizione: " + prodotto3.getDescrizione());
+//        System.out.println("Descrizione: " + prodotto3.getDescrizione());
         System.out.println("Prezzo: " + prodotto3.getPrezzo());
-        System.out.println("IVA: " + prodotto3.getIva());
+//        System.out.println("IVA: " + prodotto3.getIva());
         System.out.println("Prezzo con iva: "+prodotto3.getPrezzoConIva());
+        System.out.println("Nome esteso: "+prodotto3.getNomeEsteso());
+
+
+
+
     }
 }

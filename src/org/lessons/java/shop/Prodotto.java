@@ -58,4 +58,13 @@ public class Prodotto {
     public double getPrezzoConIva() {
         return prezzo * (1 + (iva / 100));
     }
+
+    public String getNomeEsteso() {
+        return nomeCodice() + "-" + nome;
+    }
+    private String nomeCodice() {
+        String nomeCodice = String.format("%08d", codice);
+        return nomeCodice;
+    }
+
 }
